@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="33518" started-at="2020-02-10T19:55:22Z" finished-at="2020-02-10T19:55:56Z">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="33518" started-at="2020-02-10T19:55:22Z" finished-at="2020-02-10T19:55:56Z">
+      <class name="tests.RegressionTestSuite.TC_Regression_001_Phase_1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="beforeSuite" is-config="true" duration-ms="140" started-at="2020-02-10T19:55:22Z" finished-at="2020-02-10T19:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-10T19:55:22Z" finished-at="2020-02-10T19:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="10105" started-at="2020-02-10T19:55:22Z" finished-at="2020-02-10T19:55:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegressionTestSuite.TC_Regression_001_Phase_1.TC_Regression_001_Phase_1() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="TC_Regression_001_Phase_1" duration-ms="8297" started-at="2020-02-10T19:55:33Z" finished-at="2020-02-10T19:55:41Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utilities.PageBase.lambda$0(PageBase.java:48)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at utilities.PageBase.waitForJQueryLoad(PageBase.java:54)
+at utilities.PageBase.waitUntilJQueryReady(PageBase.java:95)
+at utilities.PageBase.waitAllRequest(PageBase.java:159)
+at utilities.PageBase.clickElementJs(PageBase.java:772)
+at pages.HomePage.goToEkipArkadaslarimiz(HomePage.java:28)
+at tests.RegressionTestSuite.TC_Regression_001_Phase_1.TC_Regression_001_Phase_1(TC_Regression_001_Phase_1.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Regression_001_Phase_1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-10T19:55:41Z" finished-at="2020-02-10T19:55:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_Regression_001_Phase_1 status=SKIP method=TC_Regression_001_Phase_1.TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="beforeMethod" is-config="true" duration-ms="15087" started-at="2020-02-10T19:55:41Z" finished-at="2020-02-10T19:55:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.RegressionTestSuite.TC_Regression_001_Phase_1.TC_Regression_001_Phase_1() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-815UBIO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0061A113+1548563]
+Ordinal0 [0x0059DDA1+1039777]
+Ordinal0 [0x0051E32E+516910]
+Ordinal0 [0x00518012+491538]
+Ordinal0 [0x005186EB+493291]
+Ordinal0 [0x00519855+497749]
+Ordinal0 [0x00515885+481413]
+Ordinal0 [0x0051F0D0+520400]
+Ordinal0 [0x004CC030+180272]
+Ordinal0 [0x004CB59D+177565]
+Ordinal0 [0x004C95FB+169467]
+Ordinal0 [0x004B160A+71178]
+Ordinal0 [0x004B2690+75408]
+Ordinal0 [0x004B2629+75305]
+Ordinal0 [0x005B71B7+1143223]
+GetHandleVerifier [0x006B2B46+507814]
+GetHandleVerifier [0x006B2864+507076]
+GetHandleVerifier [0x006B9F47+537511]
+GetHandleVerifier [0x006B3402+510050]
+Ordinal0 [0x005AF29C+1110684]
+Ordinal0 [0x005B938B+1151883]
+Ordinal0 [0x005B94F3+1152243]
+Ordinal0 [0x005B83F5+1147893]
+BaseThreadInitThunk [0x770D6359+25]
+RtlGetAppContainerNamedObjectPath [0x77377B74+228]
+RtlGetAppContainerNamedObjectPath [0x77377B44+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-815UBIO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0061A113+1548563]
+Ordinal0 [0x0059DDA1+1039777]
+Ordinal0 [0x0051E32E+516910]
+Ordinal0 [0x00518012+491538]
+Ordinal0 [0x005186EB+493291]
+Ordinal0 [0x00519855+497749]
+Ordinal0 [0x00515885+481413]
+Ordinal0 [0x0051F0D0+520400]
+Ordinal0 [0x004CC030+180272]
+Ordinal0 [0x004CB59D+177565]
+Ordinal0 [0x004C95FB+169467]
+Ordinal0 [0x004B160A+71178]
+Ordinal0 [0x004B2690+75408]
+Ordinal0 [0x004B2629+75305]
+Ordinal0 [0x005B71B7+1143223]
+GetHandleVerifier [0x006B2B46+507814]
+GetHandleVerifier [0x006B2864+507076]
+GetHandleVerifier [0x006B9F47+537511]
+GetHandleVerifier [0x006B3402+510050]
+Ordinal0 [0x005AF29C+1110684]
+Ordinal0 [0x005B938B+1151883]
+Ordinal0 [0x005B94F3+1152243]
+Ordinal0 [0x005B83F5+1147893]
+BaseThreadInitThunk [0x770D6359+25]
+RtlGetAppContainerNamedObjectPath [0x77377B74+228]
+RtlGetAppContainerNamedObjectPath [0x77377B44+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at utilities.TestBase.beforeMethod(TestBase.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="TC_Regression_001_Phase_1" duration-ms="0" started-at="2020-02-10T19:55:56Z" finished-at="2020-02-10T19:55:56Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-815UBIO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0061A113+1548563]
+Ordinal0 [0x0059DDA1+1039777]
+Ordinal0 [0x0051E32E+516910]
+Ordinal0 [0x00518012+491538]
+Ordinal0 [0x005186EB+493291]
+Ordinal0 [0x00519855+497749]
+Ordinal0 [0x00515885+481413]
+Ordinal0 [0x0051F0D0+520400]
+Ordinal0 [0x004CC030+180272]
+Ordinal0 [0x004CB59D+177565]
+Ordinal0 [0x004C95FB+169467]
+Ordinal0 [0x004B160A+71178]
+Ordinal0 [0x004B2690+75408]
+Ordinal0 [0x004B2629+75305]
+Ordinal0 [0x005B71B7+1143223]
+GetHandleVerifier [0x006B2B46+507814]
+GetHandleVerifier [0x006B2864+507076]
+GetHandleVerifier [0x006B9F47+537511]
+GetHandleVerifier [0x006B3402+510050]
+Ordinal0 [0x005AF29C+1110684]
+Ordinal0 [0x005B938B+1151883]
+Ordinal0 [0x005B94F3+1152243]
+Ordinal0 [0x005B83F5+1147893]
+BaseThreadInitThunk [0x770D6359+25]
+RtlGetAppContainerNamedObjectPath [0x77377B74+228]
+RtlGetAppContainerNamedObjectPath [0x77377B44+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-815UBIO', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0061A113+1548563]
+Ordinal0 [0x0059DDA1+1039777]
+Ordinal0 [0x0051E32E+516910]
+Ordinal0 [0x00518012+491538]
+Ordinal0 [0x005186EB+493291]
+Ordinal0 [0x00519855+497749]
+Ordinal0 [0x00515885+481413]
+Ordinal0 [0x0051F0D0+520400]
+Ordinal0 [0x004CC030+180272]
+Ordinal0 [0x004CB59D+177565]
+Ordinal0 [0x004C95FB+169467]
+Ordinal0 [0x004B160A+71178]
+Ordinal0 [0x004B2690+75408]
+Ordinal0 [0x004B2629+75305]
+Ordinal0 [0x005B71B7+1143223]
+GetHandleVerifier [0x006B2B46+507814]
+GetHandleVerifier [0x006B2864+507076]
+GetHandleVerifier [0x006B9F47+537511]
+GetHandleVerifier [0x006B3402+510050]
+Ordinal0 [0x005AF29C+1110684]
+Ordinal0 [0x005B938B+1151883]
+Ordinal0 [0x005B94F3+1152243]
+Ordinal0 [0x005B83F5+1147893]
+BaseThreadInitThunk [0x770D6359+25]
+RtlGetAppContainerNamedObjectPath [0x77377B74+228]
+RtlGetAppContainerNamedObjectPath [0x77377B44+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+at utilities.TestBase.beforeMethod(TestBase.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Regression_001_Phase_1 -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-02-10T19:55:56Z" finished-at="2020-02-10T19:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-02-10T19:55:56Z" finished-at="2020-02-10T19:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@3159c4b8]" name="afterSuite" is-config="true" duration-ms="281" started-at="2020-02-10T19:55:56Z" finished-at="2020-02-10T19:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.RegressionTestSuite.TC_Regression_001_Phase_1 -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>

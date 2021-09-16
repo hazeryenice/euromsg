@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Web Suite" preserve-order="true" parallel="classes" thread-count="1">
+<!--  <listeners> -->
+<!--         <listener class-name="Listener"/> -->
+<!--         <listener class-name="AnnotationTransformer"/> -->
+<!--     </listeners> -->
+<test name="Web Tests" parallel="classes" thread-count="1">
+   
+   		<classes>
+   		<class name="tests.RegressionTestSuite.TC_Regression_001_Phase_1"/>
+        </classes>
+    </test>
+</suite>
+
